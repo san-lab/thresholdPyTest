@@ -1,5 +1,7 @@
 
-# Install
+# Threshold signature demo with EC Bilinear Pairing
+
+## Install
 
 ```
 sudo apt-get install python-dev
@@ -12,15 +14,16 @@ python3 -c "import petlib; petlib.run_tests()"
 pip install bls-lib
 ```
 
-# Execute
+## Execute
 
 ```
 python3 simpleDemo.py
 ``` 
 
-# Open questions
+## Open questions
 
-It seems that order is important, maybe because of the implementation
+It seems that order of signatures is important, maybe because of the implementation.
+
 Key generation can be distributed?
 
 # References
